@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Lexend", sans-serif;
+	font-weight: 400;
+	/* font-size: 14px; */
+	letter-spacing: 0.5px;
+}
+
+body {
+	background-color: rgb(130, 130, 130);
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+	background-color: #dbd8d8;
+}
+.table-striped-rows thead {
+	background-color: #f1f1f1;
+}
